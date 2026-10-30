@@ -105,4 +105,4 @@ Java 21.
 bash gradlew build
 ```
 
-`gradlew` restores `gradle/wrapper/gradle-wrapper.jar` from `gradle/wrapper/gradle-wrapper.jar.base64` if the jar is not already there. The mod jar is `build/libs/arenacheckpoint-1.0.0.jar`.
+`gradlew` restores `gradle/wrapper/gradle-wrapper.jar` from `gradle/wrapper/gradle-wrapper.jar.base64` when that sidecar is present. Otherwise it downloads the NeoForge 1.21.1 MDK wrapper jar and checks SHA-256 `7d3a4ac4de1c32b59bc6a4eb8ecb8e612ccd0cf1ae1e99f66902da64df296172`. The mod jar is `build/libs/arenacheckpoint-1.0.0.jar`.
