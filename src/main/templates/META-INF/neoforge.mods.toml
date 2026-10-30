@@ -16,7 +16,7 @@ When you die during a boss fight, your dropped items are placed where you entere
 [[dependencies.${mod_id}]]
 modId="neoforge"
 type="required"
-versionRange="[${neo_version},)"
+versionRange="[21.1.1,)"
 ordering="NONE"
 side="BOTH"
 
